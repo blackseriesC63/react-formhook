@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(87, 0, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  font-size: 16px;
+  outline: none;
+  margin-top: 10px;
+}
+
+button {
+  outline: none;
+  width: 100%;
+  margin-top: 15px;
+  padding: 18px;
+  border: none;
+  background-color: rgb(131, 1, 136);
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: rgb(87, 0, 90);
+}
+
+.form {
+  display: flex;
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
